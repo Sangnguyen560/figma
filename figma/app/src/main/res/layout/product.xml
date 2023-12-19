@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".product"
+    android:background="@drawable/_bg__main_char_ek2_shape"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@color/den_xanh" />
+            <View
+                android:id="@+id/back"
+                android:layout_width="20dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/arrow_forward_ios"
+
+                />
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:text="Trang Chủ"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="366dp"
+            android:layout_height="424dp"
+            android:layout_gravity="center"
+            android:src="@drawable/dacnhantamfull" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:orientation="vertical"
+            android:layout_marginVertical="16dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tác phẩm: Đắc Nhân Tâm"
+                android:textColor="@color/white"
+                android:layout_marginVertical="2dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tác giả:Dale Carnegie"
+                android:layout_marginVertical="2dp"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thể loại: Tâm Lý - Kỹ Năng Sống"
+                android:textColor="@color/white"
+                android:layout_marginVertical="2dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="2dp"
+                android:text="Đắc nhân tâm – How to win friends and Influence People của Dale Carnegie là quyển sách nổi tiếng nhất, bán chạy nhất và có tầm ảnh hưởng nhất của mọi thời đại. Tác phẩm đã được chuyển ngữ sang hầu hết các thứ tiếng trên thế giới và có mặt ở hàng trăm quốc gia."
+                android:textColor="@color/white" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="16dp"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/menu"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Danh sách chương"
+                    android:textColor="@color/white"
+                    android:layout_marginVertical="2dp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:orientation="horizontal"
+                android:layout_marginVertical="16dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/shoppingcart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/shoppingcart"
+                    android:layout_gravity="center"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    >
+                    <Button
+                        android:id="@+id/buy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Mua ngay"
+                        android:background="@drawable/rectangle_2_shape"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        />
+                    <Button
+                        android:id="@+id/read"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Đọc thử"
+                        android:background="@drawable/rectangle_2_shape"
+                        android:textColor="@color/white"
+                        android:textAllCaps="false"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="16dp"
+                >
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow>                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Thông tin chi tiết"
+                            android:textColor="@color/white"
+                            android:layout_marginVertical="2dp"
+                            />
+                    </TableRow>
+                    <TableRow>                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hàng chính hãng"
+                            android:textColor="@color/white"
+                            android:layout_marginVertical="2dp"
+                            /><TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Có"
+                            android:textColor="@color/white"
+                            android:layout_marginVertical="2dp"
+                            android:layout_marginHorizontal="24dp"
+                            />
+                    </TableRow>
+                    <TableRow>                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Công ty phát hành"
+                            android:textColor="@color/white"
+                            android:layout_marginVertical="2dp"
+                            /><TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="First News - Trí Việt"
+                            android:textColor="@color/white"
+                            android:layout_marginVertical="2dp"
+                            android:layout_marginHorizontal="24dp"
+                            />
+                    </TableRow>
+                    <TableRow>                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ngày xuất bản"
+                            android:textColor="@color/white"
+                            android:layout_marginVertical="2dp"
+                            /><TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2016-03-18 00:00:00"
+                            android:textColor="@color/white"
+                            android:layout_marginVertical="2dp"
+                            android:layout_marginHorizontal="24dp"
+                            />
+                    </TableRow>
+                    <TableRow>                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kích thước"
+                            android:textColor="@color/white"
+                            android:layout_marginVertical="2dp"
+                            /><TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="14.5 x 20.5 cm"
+                            android:textColor="@color/white"
+                            android:layout_marginVertical="2dp"
+                            android:layout_marginHorizontal="24dp"
+                            />
+                    </TableRow>
+                    <TableRow>                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Loại bìa"
+                            android:layout_marginVertical="2dp"
+                            android:textColor="@color/white"
+                            /><TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bìa mềm"
+                            android:textColor="@color/white"
+                            android:layout_marginVertical="2dp"
+                            android:layout_marginHorizontal="24dp"
+                            />
+                    </TableRow>
+                    <TableRow>                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Số trang"
+                            android:textColor="@color/white"
+                            android:layout_marginVertical="2dp"
+                            /><TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white"
+                            android:text="NXB Tổng hợp TP.HCM"
+                            android:layout_marginVertical="2dp"
+                            android:layout_marginHorizontal="24dp"
+                            />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>

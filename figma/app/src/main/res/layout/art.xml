@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="390dp"
+	android:layout_height="wrap_content"
+	tools:context=".art">
+
+
+	<ScrollView
+		android:id="@+id/main_char"
+		android:layout_width="390dp"
+		android:layout_height="wrap_content">
+
+
+		<RelativeLayout
+			android:id="@+id/content_container"
+			android:layout_width="390dp"
+			android:layout_height="match_parent">
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="55dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@color/den_xanh" />
+			<View
+				android:id="@+id/back"
+				android:layout_width="20dp"
+				android:layout_height="35dp"
+				android:layout_marginStart="10dp"
+				android:layout_marginTop="10dp"
+				android:background="@drawable/arrow_forward_ios"
+				/>
+			<TextView
+				android:layout_width="400dp"
+				android:layout_height="30dp"
+				android:text="Chương I Đắc Nhân Tâm"
+				android:textSize="25dp"
+				android:textColor="@color/white"
+				android:layout_marginStart="60dp"
+				android:layout_marginTop="10dp"
+				/>
+
+			<RelativeLayout
+				android:id="@+id/page_main_char_ek1"
+				android:layout_width="390dp"
+				android:layout_height="match_parent"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="55dp">
+
+				<View
+					android:id="@+id/_bg__main_char_ek2"
+					android:layout_width="390dp"
+					android:layout_height="14500dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="#ebdbb9" />
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:text="@string/dacnhantamstory"
+					android:textSize="18dp"
+					android:paddingRight="5dp"
+					android:paddingStart="5dp"
+					android:lineSpacingExtra="3dp"
+					/>
+
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

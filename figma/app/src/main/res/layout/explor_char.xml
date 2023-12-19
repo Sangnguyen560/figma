@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="390dp"
+	android:layout_height="wrap_content"
+	tools:context=".ExplorCharActivity">
+	<ScrollView
+		android:id="@+id/main_char"
+		android:layout_width="390dp"
+		android:layout_height="wrap_content">
+
+		<RelativeLayout
+			android:id="@+id/content_container"
+			android:layout_width="390dp"
+			android:layout_height="match_parent">
+
+
+			<RelativeLayout
+				android:id="@+id/page_main_char_ek1"
+				android:layout_width="390dp"
+				android:layout_height="match_parent"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp">
+
+				<View
+					android:id="@+id/_bg__main_char_ek2"
+					android:layout_width="390dp"
+					android:layout_height="900dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__main_char_ek2_shape"
+					/>
+
+				<View
+					android:layout_width="350dp"
+					android:layout_height="750dp"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentTop="true"
+					android:layout_marginLeft="18dp"
+					android:layout_marginTop="103dp"
+					android:background="#0E1E21" />
+
+				<RelativeLayout
+					android:layout_width="320dp"
+					android:layout_height="60dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="160dp"
+					android:layout_marginLeft="30dp">
+
+					<ImageView
+						android:layout_width="50dp"
+						android:layout_height="50dp"
+						android:layout_marginLeft="5dp"
+						android:layout_marginTop="5dp"
+						android:background="@drawable/mahiru"
+						android:radius="10dp" />
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:text="Thiên Sứ Nhà Bên"
+						android:textColor="@color/white"></TextView>
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:layout_marginTop="27dp"
+						android:text="99.000 Đ"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="20dp"
+						android:layout_height="20dp"
+						android:background="@drawable/eye"
+						android:layout_marginLeft="260dp"
+						android:layout_marginTop="20dp"
+						android:radius="10dp"/>
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="285dp"
+						android:layout_marginTop="20dp"
+						android:text="1250"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="320dp"
+						android:layout_height="1dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="59dp"
+						android:contentDescription="line_1"
+						android:src="@drawable/line" />
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="320dp"
+					android:layout_height="60dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="225dp"
+					android:layout_marginLeft="30dp">
+
+					<ImageView
+						android:id="@+id/dacnhantam"
+						android:layout_width="50dp"
+						android:layout_height="50dp"
+						android:layout_marginLeft="5dp"
+						android:layout_marginTop="5dp"
+						android:background="@drawable/dacnhantam"
+						android:radius="10dp" />
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:text="Đắc Nhân Tâm"
+						android:textColor="@color/white"></TextView>
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:layout_marginTop="27dp"
+						android:text="69.000 Đ"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="20dp"
+						android:layout_height="20dp"
+						android:background="@drawable/eye"
+						android:layout_marginLeft="260dp"
+						android:layout_marginTop="20dp"
+						android:radius="10dp"/>
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="285dp"
+						android:layout_marginTop="20dp"
+						android:text="1200"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="320dp"
+						android:layout_height="1dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="59dp"
+						android:contentDescription="line_1"
+						android:src="@drawable/line" />
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="320dp"
+					android:layout_height="60dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="745dp"
+					android:layout_marginLeft="30dp">
+
+					<ImageView
+						android:layout_width="50dp"
+						android:layout_height="50dp"
+						android:layout_marginLeft="5dp"
+						android:layout_marginTop="5dp"
+						android:background="@drawable/dacnhantam"
+						android:radius="10dp" />
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:text="Đắc Nhân Tâm"
+						android:textColor="@color/white"></TextView>
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:layout_marginTop="27dp"
+						android:text="69.000 Đ"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="20dp"
+						android:layout_height="20dp"
+						android:background="@drawable/eye"
+						android:layout_marginLeft="260dp"
+						android:layout_marginTop="20dp"
+						android:radius="10dp"/>
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="285dp"
+						android:layout_marginTop="20dp"
+						android:text="1200"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="320dp"
+						android:layout_height="1dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="59dp"
+						android:contentDescription="line_1"
+						android:src="@drawable/line" />
+				</RelativeLayout>
+				<RelativeLayout
+					android:layout_width="320dp"
+					android:layout_height="60dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="290dp"
+					android:layout_marginLeft="30dp">
+
+					<ImageView
+						android:layout_width="50dp"
+						android:layout_height="50dp"
+						android:layout_marginLeft="5dp"
+						android:layout_marginTop="5dp"
+						android:background="@drawable/dacnhantam"
+						android:radius="10dp" />
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:text="Đắc Nhân Tâm"
+						android:textColor="@color/white"></TextView>
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:layout_marginTop="27dp"
+						android:text="69.000 Đ"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="20dp"
+						android:layout_height="20dp"
+						android:background="@drawable/eye"
+						android:layout_marginLeft="260dp"
+						android:layout_marginTop="20dp"
+						android:radius="10dp"/>
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="285dp"
+						android:layout_marginTop="20dp"
+						android:text="1200"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="320dp"
+						android:layout_height="1dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="59dp"
+						android:contentDescription="line_1"
+						android:src="@drawable/line" />
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="320dp"
+					android:layout_height="60dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="355dp"
+					android:layout_marginLeft="30dp">
+
+					<ImageView
+						android:layout_width="50dp"
+						android:layout_height="50dp"
+						android:layout_marginLeft="5dp"
+						android:layout_marginTop="5dp"
+						android:background="@drawable/dacnhantam"
+						android:radius="10dp" />
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:text="Đắc Nhân Tâm"
+						android:textColor="@color/white"></TextView>
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:layout_marginTop="27dp"
+						android:text="69.000 Đ"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="20dp"
+						android:layout_height="20dp"
+						android:background="@drawable/eye"
+						android:layout_marginLeft="260dp"
+						android:layout_marginTop="20dp"
+						android:radius="10dp"/>
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="285dp"
+						android:layout_marginTop="20dp"
+						android:text="1200"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="320dp"
+						android:layout_height="1dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="59dp"
+						android:contentDescription="line_1"
+						android:src="@drawable/line" />
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="320dp"
+					android:layout_height="60dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="420dp"
+					android:layout_marginLeft="30dp">
+
+					<ImageView
+						android:layout_width="50dp"
+						android:layout_height="50dp"
+						android:layout_marginLeft="5dp"
+						android:layout_marginTop="5dp"
+						android:background="@drawable/dacnhantam"
+						android:radius="10dp" />
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:text="Đắc Nhân Tâm"
+						android:textColor="@color/white"></TextView>
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:layout_marginTop="27dp"
+						android:text="69.000 Đ"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="20dp"
+						android:layout_height="20dp"
+						android:background="@drawable/eye"
+						android:layout_marginLeft="260dp"
+						android:layout_marginTop="20dp"
+						android:radius="10dp"/>
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="285dp"
+						android:layout_marginTop="20dp"
+						android:text="1200"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="320dp"
+						android:layout_height="1dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="59dp"
+						android:contentDescription="line_1"
+						android:src="@drawable/line" />
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="320dp"
+					android:layout_height="60dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="485dp"
+					android:layout_marginLeft="30dp">
+
+					<ImageView
+						android:layout_width="50dp"
+						android:layout_height="50dp"
+						android:layout_marginLeft="5dp"
+						android:layout_marginTop="5dp"
+						android:background="@drawable/dacnhantam"
+						android:radius="10dp" />
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:text="Đắc Nhân Tâm"
+						android:textColor="@color/white"></TextView>
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:layout_marginTop="27dp"
+						android:text="69.000 Đ"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="20dp"
+						android:layout_height="20dp"
+						android:background="@drawable/eye"
+						android:layout_marginLeft="260dp"
+						android:layout_marginTop="20dp"
+						android:radius="10dp"/>
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="285dp"
+						android:layout_marginTop="20dp"
+						android:text="1200"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="320dp"
+						android:layout_height="1dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="59dp"
+						android:contentDescription="line_1"
+						android:src="@drawable/line" />
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="320dp"
+					android:layout_height="60dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="550dp"
+					android:layout_marginLeft="30dp">
+
+					<ImageView
+						android:layout_width="50dp"
+						android:layout_height="50dp"
+						android:layout_marginLeft="5dp"
+						android:layout_marginTop="5dp"
+						android:background="@drawable/dacnhantam"
+						android:radius="10dp" />
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:text="Đắc Nhân Tâm"
+						android:textColor="@color/white"></TextView>
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:layout_marginTop="27dp"
+						android:text="69.000 Đ"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="20dp"
+						android:layout_height="20dp"
+						android:background="@drawable/eye"
+						android:layout_marginLeft="260dp"
+						android:layout_marginTop="20dp"
+						android:radius="10dp"/>
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="285dp"
+						android:layout_marginTop="20dp"
+						android:text="1200"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="320dp"
+						android:layout_height="1dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="59dp"
+						android:contentDescription="line_1"
+						android:src="@drawable/line" />
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="320dp"
+					android:layout_height="60dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="615dp"
+					android:layout_marginLeft="30dp">
+
+					<ImageView
+						android:layout_width="50dp"
+						android:layout_height="50dp"
+						android:layout_marginLeft="5dp"
+						android:layout_marginTop="5dp"
+						android:background="@drawable/dacnhantam"
+						android:radius="10dp" />
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:text="Đắc Nhân Tâm"
+						android:textColor="@color/white"></TextView>
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:layout_marginTop="27dp"
+						android:text="69.000 Đ"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="20dp"
+						android:layout_height="20dp"
+						android:background="@drawable/eye"
+						android:layout_marginLeft="260dp"
+						android:layout_marginTop="20dp"
+						android:radius="10dp"/>
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="285dp"
+						android:layout_marginTop="20dp"
+						android:text="1200"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="320dp"
+						android:layout_height="1dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="59dp"
+						android:contentDescription="line_1"
+						android:src="@drawable/line" />
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="320dp"
+					android:layout_height="60dp"
+					android:layout_alignParentTop="true"
+					android:layout_marginTop="680dp"
+					android:layout_marginLeft="30dp">
+
+					<ImageView
+						android:layout_width="50dp"
+						android:layout_height="50dp"
+						android:layout_marginLeft="5dp"
+						android:layout_marginTop="5dp"
+						android:background="@drawable/dacnhantam"
+						android:radius="10dp" />
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:text="Đắc Nhân Tâm"
+						android:textColor="@color/white"></TextView>
+
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="70dp"
+						android:layout_marginTop="27dp"
+						android:text="69.000 Đ"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="20dp"
+						android:layout_height="20dp"
+						android:background="@drawable/eye"
+						android:layout_marginLeft="260dp"
+						android:layout_marginTop="20dp"
+						android:radius="10dp"/>
+					<TextView
+						android:layout_width="120dp"
+						android:layout_height="20dp"
+						android:layout_marginLeft="285dp"
+						android:layout_marginTop="20dp"
+						android:text="1200"
+						android:textColor="@color/white"></TextView>
+					<ImageView
+						android:layout_width="320dp"
+						android:layout_height="1dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="59dp"
+						android:contentDescription="line_1"
+						android:src="@drawable/line" />
+				</RelativeLayout>
+				<TextView
+					android:id="@+id/topngay"
+					android:layout_width="100dp"
+					android:layout_height="28.4dp"
+					android:layout_marginLeft="45dp"
+					android:layout_marginTop="120dp"
+					android:text="Top Ngày"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="15sp" />
+
+				<TextView
+					android:id="@+id/toptuan"
+					android:layout_width="100dp"
+					android:layout_height="28.4dp"
+					android:layout_marginLeft="165dp"
+					android:layout_marginTop="120dp"
+					android:text="Top Tuần"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="15sp" />
+				<TextView
+					android:id="@+id/topthang"
+					android:layout_width="100dp"
+					android:layout_height="28.4dp"
+					android:layout_marginLeft="270dp"
+					android:layout_marginTop="120dp"
+					android:text="Top Tháng"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="15sp" />
+
+
+				<ImageView
+					android:layout_width="350dp"
+					android:layout_height="1dp"
+					android:layout_marginStart="17dp"
+					android:layout_marginTop="143dp"
+					android:contentDescription="line_1"
+					android:src="@drawable/line_1" />
+
+				<View
+					android:id="@+id/rectangle_1"
+					android:layout_width="325dp"
+					android:layout_height="32dp"
+					android:layout_marginStart="9dp"
+					android:layout_marginTop="10dp"
+					android:background="@drawable/rectangle_1_shape" />
+
+				<View
+					android:id="@+id/rectangle_2"
+					android:layout_width="37dp"
+					android:layout_height="32dp"
+					android:layout_marginStart="344dp"
+					android:layout_marginTop="10dp"
+					android:background="@drawable/rectangle_2_shape" />
+
+				<TextView
+					android:id="@+id/nh_p_d__li_u_c_n_t_m"
+					android:layout_width="280.2dp"
+					android:layout_height="24.2dp"
+					android:layout_marginLeft="60dp"
+					android:layout_marginTop="17dp"
+					android:text="Dữ Liệu Cần tìm"
+					android:textColor="@color/nh_p_d__li_u_c_n_t_m_color"
+					android:textSize="12sp" />
+
+				<ImageView
+					android:id="@+id/search"
+					android:layout_width="18dp"
+					android:layout_height="18dp"
+					android:layout_marginStart="25dp"
+					android:layout_marginTop="17dp"
+					android:contentDescription="search"
+					android:src="@drawable/search" />
+
+
+				<TextView
+					android:id="@+id/trang_ch_"
+					android:layout_width="117.4dp"
+					android:layout_height="28.4dp"
+					android:layout_marginLeft="34dp"
+					android:layout_marginTop="63dp"
+					android:text="@string/trang_ch__string"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="14sp"
+					/>
+
+
+				<TextView
+					android:id="@+id/b__s_u_t_p"
+					android:layout_width="88dp"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="302dp"
+					android:layout_marginTop="63dp"
+
+					android:text="@string/b__s_u_t_p_string"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="14sp" />
+
+				<TextView
+					android:id="@+id/kh_m_ph_"
+					android:layout_width="117.4dp"
+					android:layout_height="28.4dp"
+					android:layout_marginLeft="167dp"
+					android:layout_marginTop="62dp"
+					android:text="@string/kh_m_ph__string"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="14sp" />
+
+				<ImageView
+					android:id="@+id/line_1"
+					android:layout_width="124dp"
+					android:layout_height="1dp"
+					android:layout_marginStart="140dp"
+					android:layout_marginTop="81dp"
+					android:contentDescription="line_1"
+					android:src="@drawable/line_1" />
+
+				<View
+					android:id="@+id/rectangle_12"
+					android:layout_width="390dp"
+					android:layout_height="39dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="900dp"
+					android:background="@drawable/rectangle_12_shape" />
+
+				<ImageView
+					android:id="@+id/notifications_active"
+					android:layout_width="29dp"
+					android:layout_height="29dp"
+					android:layout_marginStart="180dp"
+					android:layout_marginTop="900dp"
+					android:contentDescription="notifications_active"
+					android:src="@drawable/notifications_active" />
+
+				<ImageView
+					android:id="@+id/account_circle"
+					android:layout_width="31dp"
+					android:layout_height="31dp"
+					android:layout_marginStart="300dp"
+					android:layout_marginTop="900dp"
+					android:contentDescription="account_circle"
+					android:src="@drawable/account_circle" />
+
+				<ImageView
+					android:id="@+id/home"
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+					android:layout_marginStart="60dp"
+					android:layout_marginTop="900dp"
+					android:contentDescription="home"
+					android:background="@drawable/home"/>
+
+
+				<ImageView
+					android:id="@+id/shopping_cart"
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:layout_marginStart="350dp"
+					android:layout_marginTop="13dp"
+					android:contentDescription="shopping_cart"
+					android:src="@drawable/shopping_cart" />
+
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

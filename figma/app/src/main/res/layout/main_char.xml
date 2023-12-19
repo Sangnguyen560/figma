@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="390dp"
+	android:layout_height="wrap_content"
+	tools:context=".main"
+	>
+
+	<ScrollView
+		android:id="@+id/main_char"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<RelativeLayout
+			android:id="@+id/content_container"
+			android:layout_width="390dp"
+			android:layout_height="match_parent">
+
+
+			<RelativeLayout
+				android:id="@+id/page_main_char_ek1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp">
+
+				<View
+					android:id="@+id/_bg__main_char_ek2"
+					android:layout_width="390dp"
+					android:layout_height="1124dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__main_char_ek2_shape" />
+
+				<View
+					android:id="@+id/rectangle_1"
+					android:layout_width="325dp"
+					android:layout_height="32dp"
+					android:layout_marginStart="9dp"
+					android:layout_marginTop="10dp"
+					android:background="@drawable/rectangle_1_shape" />
+
+				<View
+					android:id="@+id/rectangle_2"
+					android:layout_width="37dp"
+					android:layout_height="32dp"
+					android:layout_marginStart="344dp"
+					android:layout_marginTop="10dp"
+					android:background="@drawable/rectangle_2_shape" />
+
+				<TextView
+					android:id="@+id/nh_p_d__li_u_c_n_t_m"
+					android:layout_width="280.2dp"
+					android:layout_height="24.2dp"
+					android:layout_marginLeft="60dp"
+					android:layout_marginTop="17dp"
+					android:text="Dữ Liệu Cần tìm"
+					android:textColor="@color/nh_p_d__li_u_c_n_t_m_color"
+					android:textSize="12sp" />
+
+				<ImageView
+					android:id="@+id/search"
+					android:layout_width="18dp"
+					android:layout_height="18dp"
+					android:layout_marginStart="25dp"
+					android:layout_marginTop="17dp"
+					android:contentDescription="search"
+					android:src="@drawable/search" />
+
+
+				<TextView
+					android:id="@+id/trang_ch_"
+					android:layout_width="117.4dp"
+					android:layout_height="28.4dp"
+					android:layout_marginLeft="34dp"
+					android:layout_marginTop="63dp"
+					android:text="@string/trang_ch__string"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="14sp" />
+
+				<TextView
+					android:id="@+id/b__s_u_t_p"
+					android:layout_width="117.4dp"
+					android:layout_height="28.4dp"
+					android:layout_marginLeft="302dp"
+					android:layout_marginTop="63dp"
+					android:text="@string/b__s_u_t_p_string"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="14sp" />
+
+				<TextView
+					android:id="@+id/kh_m_ph_"
+					android:layout_width="117.4dp"
+					android:layout_height="28.4dp"
+					android:layout_marginLeft="167dp"
+					android:layout_marginTop="62dp"
+					android:text="@string/kh_m_ph__string"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="14sp" />
+
+				<ImageView
+					android:id="@+id/line_1"
+					android:layout_width="124dp"
+					android:layout_height="1dp"
+					android:layout_marginStart="13dp"
+					android:layout_marginTop="81dp"
+					android:contentDescription="line_1"
+					android:src="@drawable/line_1" />
+
+				<ImageView
+					android:id="@+id/rectangle_10"
+					android:layout_width="375dp"
+					android:layout_height="203dp"
+					android:layout_marginStart="8dp"
+					android:layout_marginTop="98dp"
+					android:contentDescription="rectangle_10"
+					android:src="@drawable/rectangle_10" />
+
+				<ImageView
+					android:id="@+id/arrow_forward_ios"
+					android:layout_width="11.87dp"
+					android:layout_height="20dp"
+					android:layout_marginStart="14dp"
+					android:layout_marginTop="185dp"
+					android:contentDescription="arrow_forward_ios"
+					android:src="@drawable/arrow_forward_ios" />
+
+				<ImageView
+					android:id="@+id/arrow_forward_ios_ek1"
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:layout_marginStart="358dp"
+					android:layout_marginTop="180dp"
+					android:contentDescription="arrow_forward_ios_ek1"
+					android:src="@drawable/arrow_forward_ios_ek1" />
+
+
+				<ImageView
+					android:id="@+id/image_1"
+					android:layout_width="150dp"
+					android:layout_height="203dp"
+					android:layout_marginStart="132dp"
+					android:layout_marginTop="99dp"
+					android:contentDescription="image_1"
+					android:src="@drawable/image_1" />
+
+				<ImageView
+					android:id="@+id/mahiru1"
+					android:layout_width="160dp"
+					android:layout_height="160dp"
+					android:layout_marginStart="21dp"
+					android:layout_marginTop="357dp"
+					android:contentDescription="rectangle_11"
+					android:src="@drawable/mahiru" />
+
+				<ImageView
+					android:id="@+id/teck1"
+					android:layout_width="160dp"
+					android:layout_height="160dp"
+					android:layout_marginStart="19dp"
+					android:layout_marginTop="588dp"
+					android:contentDescription="rectangle_16"
+					android:src="@drawable/teck" />
+
+				<ImageView
+					android:id="@+id/sj"
+					android:layout_width="160dp"
+					android:layout_height="160dp"
+					android:layout_marginStart="220dp"
+					android:layout_marginTop="590dp"
+					android:contentDescription="rectangle_17"
+					android:src="@drawable/sj" />
+
+				<ImageView
+					android:id="@+id/harrypotter"
+					android:layout_width="160dp"
+					android:layout_height="160dp"
+					android:layout_marginStart="18dp"
+					android:layout_marginTop="845dp"
+					android:contentDescription="rectangle_19"
+					android:src="@drawable/harrypotter" />
+
+				<ImageView
+					android:id="@+id/dacnhantam"
+					android:layout_width="160dp"
+					android:layout_height="160dp"
+					android:layout_marginStart="220dp"
+					android:layout_marginTop="845dp"
+					android:contentDescription="rectangle_20"
+					android:src="@drawable/dacnhantam" />
+
+				<ImageView
+					android:id="@+id/line_2"
+					android:layout_width="141dp"
+					android:layout_height="7dp"
+					android:layout_marginStart="128dp"
+					android:layout_marginTop="314dp"
+					android:contentDescription="line_2"
+					android:src="@drawable/line_2" />
+
+				<View
+					android:id="@+id/rectangle_12"
+					android:layout_width="390dp"
+					android:layout_height="39dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="1085dp"
+					android:background="@drawable/rectangle_12_shape" />
+
+				<TextView
+					android:id="@+id/thi_n_s__nh__b_n"
+					android:layout_width="162dp"
+					android:layout_height="29.8dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="19dp"
+					android:layout_marginTop="527dp"
+					android:gravity="center"
+					android:text="Thiên Sứ Nhà Bên"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="18sp" />
+
+				<ImageView
+					android:id="@+id/cat"
+					android:layout_width="160dp"
+					android:layout_height="160dp"
+					android:layout_marginStart="220dp"
+					android:layout_marginTop="357dp"
+					android:contentDescription="rectangle_21"
+					android:src="@drawable/story_cat" />
+
+				<TextView
+					android:id="@+id/thi_n_s__nh__b_n_ek1"
+					android:layout_width="162dp"
+					android:layout_height="29.8dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="220dp"
+					android:layout_marginTop="527dp"
+					android:gravity="center"
+					android:text="Story of the Cat"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="18sp" />
+
+				<ImageView
+					android:id="@+id/notifications_active"
+					android:layout_width="29dp"
+					android:layout_height="29dp"
+					android:layout_marginStart="180dp"
+					android:layout_marginTop="1089dp"
+					android:contentDescription="notifications_active"
+					android:src="@drawable/notifications_active" />
+
+				<ImageView
+					android:id="@+id/account_circle"
+					android:layout_width="31dp"
+					android:layout_height="31dp"
+					android:layout_marginStart="300dp"
+					android:layout_marginTop="1088dp"
+					android:contentDescription="account_circle"
+					android:src="@drawable/account_circle" />
+
+				<View
+					android:id="@+id/home"
+					android:layout_width="30dp"
+					android:layout_height="30dp"
+					android:layout_marginStart="60dp"
+					android:layout_marginTop="1088dp"
+					android:background="@drawable/home"
+					 />
+
+				<TextView
+					android:id="@+id/xem_th_m"
+					android:layout_width="99dp"
+					android:layout_height="19dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="295dp"
+					android:layout_marginTop="337dp"
+					android:gravity="center"
+					android:text="@string/xem_th_m_string"
+					android:textColor="@color/trang_ch__color" />
+
+				<TextView
+					android:id="@+id/lightnovel"
+					android:layout_width="99dp"
+					android:layout_height="19dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="-3dp"
+					android:layout_marginTop="337dp"
+					android:textSize="14dp"
+					android:gravity="center"
+					android:text="@string/lightnovel_string"
+					android:textColor="@color/trang_ch__color" />
+
+				<TextView
+					android:id="@+id/xem_th_m_ek1"
+					android:layout_width="99dp"
+					android:layout_height="19dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="295dp"
+					android:layout_marginTop="571dp"
+					android:gravity="center"
+					android:text="@string/xem_th_m_string"
+					android:textColor="@color/trang_ch__color" />
+
+				<TextView
+					android:id="@+id/teck"
+					android:layout_width="84dp"
+					android:layout_height="19dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="-8dp"
+					android:layout_marginTop="571dp"
+					android:gravity="center"
+					android:textSize="14dp"
+					android:text="@string/teck_string"
+					android:textColor="@color/trang_ch__color" />
+
+				<TextView
+					android:id="@+id/xem_th_m_ek2"
+					android:layout_width="99dp"
+					android:layout_height="19dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="295dp"
+					android:layout_marginTop="820dp"
+					android:gravity="center"
+					android:text="@string/xem_th_m_string"
+					android:textColor="@color/trang_ch__color" />
+
+				<TextView
+					android:id="@+id/story"
+					android:layout_width="99.1dp"
+					android:layout_height="19.1dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="-17dp"
+					android:layout_marginTop="820dp"
+					android:gravity="center"
+					android:text="@string/story_string"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="14sp" />
+
+				<TextView
+					android:id="@+id/_25_xu_h__ng_c_ng_ngh____nh_h_nh_cu_c_c_ch_m_ng_c_ng_nghi_p_4_0"
+					android:layout_width="165dp"
+					android:layout_height="52dp"
+					android:layout_marginLeft="18dp"
+					android:layout_marginTop="757dp"
+					android:text="@string/_25_xuhuong"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="15sp" />
+
+				<TextView
+					android:id="@+id/harry_potter_and_the_philosopher_s_stone_paperback"
+					android:layout_width="166dp"
+					android:layout_height="58.5dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="15dp"
+					android:layout_marginTop="1010dp"
+					android:gravity="center"
+					android:text="@string/harry_potter_and_the_philosopher_s_stone_paperback_string"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="15sp" />
+
+				<TextView
+					android:id="@+id/__c_nh_n_t_m"
+					android:layout_width="111dp"
+					android:layout_height="22.5dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="245dp"
+					android:layout_marginTop="1010dp"
+					android:gravity="center"
+					android:text="Đắc Nhân Tâm"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="15sp" />
+
+				<TextView
+					android:id="@+id/steve_jobs___s_ng____thay___i_th__gi_i"
+					android:layout_width="166dp"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="220dp"
+					android:layout_marginTop="758dp"
+					android:gravity="center"
+					android:text="@string/steve_jobs___s_ng____thay___i_th__gi_i_string"
+					android:textColor="@color/trang_ch__color"
+					android:textSize="15sp" />
+
+				<ImageView
+					android:id="@+id/shopping_cart"
+					android:layout_width="24dp"
+					android:layout_height="24dp"
+					android:layout_marginStart="350dp"
+					android:layout_marginTop="13dp"
+					android:contentDescription="shopping_cart"
+					android:src="@drawable/shopping_cart" />
+
+			</RelativeLayout>
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
